@@ -1,12 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
+  output: 'export',
+  distDir: 'dist',
+  images: {
+    unoptimized: true, // necessário para static export
   },
-  reactStrictMode: false,
 };
 
 export default nextConfig;
