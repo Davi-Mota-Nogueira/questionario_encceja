@@ -52,3 +52,7 @@ prompt
 server.log
 # Skills directory
 /skills/
+.agents
+.impeccable.md
+/DISTILLATION_REPORT.md
+/HARDENING_IMPROVEMENTS.md
